@@ -1,0 +1,74 @@
+@import url(./global.css);
+
+/* -----------HEADER----------- */
+header {
+    background-color: var(--color-dark-mode);
+
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 41px 203px 0px 204px;
+}
+
+.header-links {
+    display: flex;
+    gap: 60px;
+    font-size: var(--font-body-2-size);
+}
+
+.header-links a {
+    text-decoration: none;
+    color: var(--color-light-content);
+    font-family: var(--font-family);
+    font-size: var(--font-body-2-size);
+}
+
+.header-icons {
+    display: flex;
+    gap: 20px;
+}
+
+/* -----------FIM HEADER----------- */
+/* -----------MAIN----------- */
+main {
+    background-color: var(--color-dark-mode);
+
+}
+
+.content-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--color-light-content);
+    font-family: var(--font-family);
+    padding: 100px 160px 0px 160px;
+}
+
+.content-main span {
+    background: linear-gradient(to right, #13b1f5 3%, #e70faa 100%);
+    /* Gradiente linear */
+    -webkit-background-clip: text;
+    /* Aplica o gradiente ao texto */
+    -webkit-text-fill-color: transparent;
+    /* Torna o texto transparente para mostrar o gradiente */
+}
+
+.content-main img {
+    
+    position: relative;
+    padding: 4px;
+    /* Espaço interno */
+    /* Torna a borda transparente */
+    border-radius: 230px;
+    /* Bordas arredondadas (opcional) */
+    background: linear-gradient(to right, #13b1f5 3%, #e70faa 100%);
+        /* Gradiente */
+    background-clip: border-box;
+    /* Faz o gradiente "clipar" na borda */
+    
+}
+
+/* -----------FIM MAIN----------- */
