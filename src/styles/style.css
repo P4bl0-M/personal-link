@@ -35,6 +35,7 @@ header {
 /* -----------MAIN----------- */
 main {
     background-color: var(--color-dark-mode);
+    padding-bottom: 160px;
 
 }
 
@@ -57,7 +58,7 @@ main {
 }
 
 .content-main img {
-    
+
     position: relative;
     padding: 4px;
     /* Espaço interno */
@@ -65,10 +66,54 @@ main {
     border-radius: 230px;
     /* Bordas arredondadas (opcional) */
     background: linear-gradient(to right, #13b1f5 3%, #e70faa 100%);
-        /* Gradiente */
+    /* Gradiente */
     background-clip: border-box;
     /* Faz o gradiente "clipar" na borda */
-    
+
 }
 
 /* -----------FIM MAIN----------- */
+/* -----------TECH STACK----------- */
+
+.tech-stack {
+    background-color: var(--color-dark-mode);
+    
+}
+
+
+.content-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.content-stack h2 {
+    color: var(--color-light-content);
+    font-family: var(--font-family);
+    font-size: var(--font-headline-3-size);
+    font-weight: var(--font-headline-2-weight);
+
+}
+
+.content-stack p {
+    color: var(--color-light-content);
+    font-family: var(--font-family);
+    font-size: var(--font-body-2-size);
+    font-weight: var(--font-body-2-weight-regular);
+    padding-bottom: 80px;
+
+}
+
+.tech-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+
+}
+
+
+
+
+/* -----------FIM TECH STACK----------- */
