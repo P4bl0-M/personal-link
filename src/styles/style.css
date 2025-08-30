@@ -10,12 +10,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 41px 203px 0px 204px;
+    padding: 41px 203px 0px 180px;
 }
 
 .header-links {
     display: flex;
-    gap: 60px;
+    gap: 50px;
     font-size: var(--font-body-2-size);
 }
 
@@ -29,6 +29,7 @@ header {
 .header-icons {
     display: flex;
     gap: 20px;
+    padding-left: 40px;
 }
 
 /* -----------FIM HEADER----------- */
@@ -77,7 +78,7 @@ main {
 
 .tech-stack {
     background-color: var(--color-dark-mode);
-    
+
 }
 
 
@@ -85,7 +86,6 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .content-stack h2 {
@@ -93,7 +93,6 @@ main {
     font-family: var(--font-family);
     font-size: var(--font-headline-3-size);
     font-weight: var(--font-headline-2-weight);
-
 }
 
 .content-stack p {
@@ -102,7 +101,6 @@ main {
     font-size: var(--font-body-2-size);
     font-weight: var(--font-body-2-weight-regular);
     padding-bottom: 80px;
-
 }
 
 .tech-images {
@@ -110,10 +108,102 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 0px 40px;
+}
 
+/* -----------FIM TECH STACK----------- */
+/* -----------PROJECTS----------- */
+.projects {
+    background-color: var(--color-dark-mode);
+    padding-top: 140px;
+}
+
+.projects-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-projects h2 {
+    color: var(--color-light-content);
+    font-family: var(--font-family);
+    font-size: var(--font-headline-3-size);
+    font-weight: var(--font-headline-2-weight);
+}
+
+.content-projects-image img {
+    border-radius: 14px 14px 0px 0px;
+    padding-bottom: 0px;
+
+}
+
+.content-projects p {
+    color: var(--color-light-content);
+    font-family: var(--font-family);
+    font-size: var(--font-body-2-size);
+    font-weight: var(--font-body-2-weight-regular);
+    padding-bottom: 80px;
+}
+
+.projects-descritions {
+    width: 314px;
+    height: 160px;
+}
+
+.projects-descritions h3 {
+    display: flex;
+    justify-content: center;
+    color: var(--color-solid-heading-dark);
+    font-family: var(--font-family);
+    font-size: var(--font-body-6-size);
+    font-weight: var(--font-body-6-weight-medium);
+}
+
+.projects-descritions p {
+    padding: 10px;
+    color: var(--color-light-content);
+    font-family: var(--font-family);
+    font-size: var(--font-body-5-size);
+    font-weight: var(--font-body-5-weight-light);
+}
+
+.projects-links {
+    width: 314px;
+    height: 160px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link-one {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.link-one a {
+    color: var(--color-light-content);
+    font-family: var(--font-family);
+    font-size: var(--font-body-5-size);
+    font-weight: var(--font-body-5-weight-regular);
+    text-decoration: none;
+}
+
+.projects-card {
+    background-color: var(--color-dark-content-two);
+    width: 314px;
+    height: 190px;
+    border-radius: 0px 0px 14px 14px;
+}
+
+.cards-pro {
+    display: flex;
 }
 
 
 
 
-/* -----------FIM TECH STACK----------- */
+/* -----------FIM PROJECTS----------- */
