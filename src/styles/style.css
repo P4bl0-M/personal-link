@@ -203,6 +203,12 @@ main {
     display: flex;
 }
 
+.projects-cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
 
 
 
